@@ -26,7 +26,7 @@ height:400px;
 }
 
 #micro-greens{
-background-image: url('../img/mg-collage.jpg'); 
+background-image: url('../img/mg-collage2.jpg'); 
 
 }
 
@@ -37,7 +37,17 @@ background-image: url('../img/mr2-collage.jpg');
 }
 
 #veggie-collage{
-	background-image: url('../img/veggie-collage.jpg');
+	background-image: url('../img/veggie-collage2.jpg');
+}
+
+
+#karkonose{
+	background-image: url('https://i.pinimg.com/originals/7b/f3/52/7bf352d865574191f39e568a4a958747.jpg');
+}
+
+
+#nature-palace{
+	background-image: url('../img/applepie-land.jpg');
 }
 /*  GROUPING  */
 .group:before,
@@ -60,7 +70,7 @@ background-image: url('../img/mr2-collage.jpg');
 		margin: 1% 0 1% 0%;
 	}
 	#veggie-collage{
-		background-image: url('../img/veggie-collage-xs7.jpg');
+		background-image: url('../img/veggie2-collage-xs7.jpg');
 }
 }
 

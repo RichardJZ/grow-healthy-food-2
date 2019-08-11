@@ -4037,3 +4037,14 @@ margin-bottom:20px;
 	font-size:1.2rem;
 
 	}
+
+
+.general-list li{
+	list-style-type:disc;
+	margin-left:61px;
+}
+
+.prices{
+	margin-left:61px;
+	margin-top:11px;
+}
