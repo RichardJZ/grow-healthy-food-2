@@ -152,11 +152,22 @@ section p {
   margin-bottom: 30px;
   text-align: center; }
 */
+
+
+
+
 @media (max-width: 800px) {
   section {
     padding: 50px 20px; } }
 
 /*Header Styles*/
+
+
+.wrapper-header{
+	display:flex;
+
+
+}
 header {
   
   width: 100%;
@@ -165,14 +176,16 @@ header {
   padding: 35px 100px 0;
   animation: 1s fadein 0.5s forwards;
   opacity: 0;
-  color: #fff; 
+  color: #000; 
   z-index:2;
   
 
 }
 
 header h2 {
-  font-family: "Quicksand", sans-serif; }
+  font-family: "Quicksand", sans-serif;
+	color: #000;
+ }
 /*
 header nav {
   display: flex;
@@ -731,12 +744,12 @@ nav li {
 
 #menu li a {
   display:block;
-  min-width:140px;
+  min-width:80px;
   height: 50px;
   text-align: center;
   line-height: 50px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #fff;
+  color: black;
   opacity:0.9;
 
   text-decoration: none;
@@ -3990,14 +4003,12 @@ h1, h2, h3, h4, h5, h6 {
   {
     margin-bottom:30px; } }
 
-/*
 @media (max-width: 440px) {
-  .intro-text .grid li
-   {
-    height:400px;
-  }
+ .topic-title.main-page{
+	width:100%; 
 }
-*/
+}
+
 
 
 
@@ -4047,4 +4058,25 @@ margin-bottom:20px;
 .prices{
 	margin-left:61px;
 	margin-top:11px;
+}
+
+.topic-title.main-page{
+	width:69%;
+}
+
+h2.wrapper-title a{
+	color:black;
+
+}
+
+h2.wrapper-title{
+	margin:auto;
+	display: flex;
+	justify-content:center;
+}
+
+nav#menu{
+	
+	display: flex;
+	justify-content:space-between;
 }
